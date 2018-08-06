@@ -16,4 +16,9 @@ public class MarketProduct
         this.Description = Description;
         this.Quantity = Quantity;
     }
+
+    public String getDescription()
+    {
+        return this.Description;
+    }
 }
